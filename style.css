@@ -773,7 +773,7 @@ color: #FF4E00;
 }
 @media all and (max-width:500px) {
     body {
-        width: 320px;
+        width: 100%;
     }
     .partners_block img {
         display: none;
@@ -782,7 +782,7 @@ color: #FF4E00;
         display: none;
     }
     header {
-        width: 320px;
+        width: 100%;
         height: 34px;
         display: flex;
         justify-content: space-between;
@@ -801,7 +801,7 @@ color: #FF4E00;
         visibility: visible;
     }
     footer {
-        width: 320px;
+        width: 100%;
         height: 217px;
         padding-top: 10px;
         position: relative;

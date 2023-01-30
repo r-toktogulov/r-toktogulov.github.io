@@ -113,22 +113,29 @@ h1 {
     margin-left: 120px;
 }
 @media all and (max-width: 500px) {
+    .underline {
+        display: none;
+    }
     .main-content {
         padding-top: 0px;
     }
     .main-content_right {
         width: 100%;
-        margin-left: 40px;
+        margin-left: 15%;
         margin-top: 26px;
     }
     .container {
-        width: 320px;
-        padding-left: 10px;
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
     }
     .promo {
         margin-left: 0;
         width: 100%;
         height: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     .arrow3 {
         /* display: none; */
@@ -142,7 +149,6 @@ h1 {
     h1 {
     width: 239px;
     height: 113px;
-    font-family: 'Tactic Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -249,7 +255,7 @@ h2 {
         position: relative;
     }
     .about_app-info {
-        width: 298px;
+        width: 100%;
         height: 276px;
     }
     .about_app-info p {
@@ -386,14 +392,14 @@ h2 {
         /* display: none; */
         width: 200px;
         height: 158px;
-        left: 90px;
+        left: 30%;
         top: 0px;
     }
     .arrow4 {
         /* display: none; */
         width: 200px;
         height: 158px;
-        left: 15px;
+        left: 11%;
         top: 40px;
     }
 }
@@ -769,7 +775,7 @@ color: #FF4E00;
     width: 18px;
     height: 10px;
     margin-top: 12px;
-    margin-left: 25px;
+    margin-right: 0;
 }
 @media all and (max-width:500px) {
     body {
@@ -792,6 +798,7 @@ color: #FF4E00;
     }
     .logo {
         margin-left: 0;
+        width: 280px;
     }
     .logo img{
         width: 110px;
@@ -810,7 +817,7 @@ color: #FF4E00;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         margin: 0 auto;
     }
     .footer_menu {
